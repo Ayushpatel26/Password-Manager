@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Personal Password-Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <span id="logo">Pass-X</span>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="alert"></div>
+        <div class="container">
+            <h1>Password-Manager</h1>
+            <p>
+                We are thrilled to have you here. Your digital life contains a lots of passwords, and we know how challenging it can be to manage them all. That's why we are hers to make it easy for you.
+            </p>
+            <h2>Your Passwords <span>(copied!)</span></h2>
+            <table>
+                <tr>
+                    <th>Website</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                    <th>Delete</th>
+                </tr>
+                
+            </table>
+
+            <h2>Add a Password</h2>
+            <!-- <form action="/"> -->
+                <label for="Website">Website:</label>
+                <input type="text" name="Website" id="Website">
+                <br><br>
+                <label for="Username">Username:</label>
+                <input type="text" name="Username" id="Username">
+                <br><br>
+                <label for="Password">Password:</label>
+                <input type="password" name="Password" id="Password">
+                <br>
+                <button id="Submit">Submit</button>
+            <!-- </form> -->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
